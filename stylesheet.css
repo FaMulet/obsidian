@@ -1,6 +1,8 @@
 
 body {
-    background-image:url("images/background.jpg");
+ /*   background-image:url("images/background.jpg");*/
+    background-color: #008000;
+     /*     oupS !!!!*/
     background-repeat: no-repeat;
     background-blend-mode: soft-light;
     background-color: #333;
