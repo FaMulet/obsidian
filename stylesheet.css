@@ -6,10 +6,7 @@ body {
     background-color: #333;
     background-position: 0% 23%;
     background-size: cover;
-
-
-    /*z-index: 1;*/
-
+    z-index: 1;
 }
 
 #bg {
@@ -24,7 +21,7 @@ nav {
 
 }
 
-nav ul li {
+.menu ul li {
   color: #bdbdbd;
   text-transform: uppercase;
   display: inline-block;
@@ -35,4 +32,15 @@ nav ul li {
 /*.page{
   z-index: 2;
   background-color: rgba(0, 0, 0, 0.5);
+}*/
+
+.social-navigation {
+  display: inline-flex
+  z-index: 4;
+}
+
+/*.fa-stack {
+  color: #FFF;
+  height: 50px;
+  z-index: 2;
 }*/
