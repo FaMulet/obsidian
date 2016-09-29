@@ -1,34 +1,29 @@
 
 body {
-    background-image:url("images/background.jpg");
+    background-image: url("images/background.jpg");
     background-repeat: no-repeat;
     background-blend-mode: soft-light;
     background-color: #333;
     background-position: 0% 23%;
     background-size: cover;
-    z-index: 1;
 }
 
 .3pict {
   display: flex;
 }
 
-
-}
-
-
 nav {
-  z-index: 3;
   text-align: center;
-
 }
 
 .menu ul li {
   color: #bdbdbd;
   text-transform: uppercase;
   display: inline-flex;
-  padding: 2em 1em 0 1em;
+  /*align-items: center;*/
+  justify-content: space-around;
   font-family: Open Sans;
+  padding: 2em 1em 0 1em;
 }
 
 /*.page{
@@ -37,15 +32,17 @@ nav {
 }*/
 
 .social-navigation {
-  display: inline-flex
+  text-align: center;
+  display: inline-flex;
+  /*align-items: center;*/
   justify-content: space-around;
   font-size: 1.3em;
   color: #fff;
 }
 
 .social-navigation i {
-  padding-left: 0.7em;
-  padding-right: 0.7em;
+
+  padding: 0.7em;
 }
 /*.fa-stack {
   color: #FFF;
