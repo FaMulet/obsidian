@@ -9,7 +9,9 @@ body {
     z-index: 1;
 }
 
-#bg {
+.3pict {
+  display: flex;
+}
 
 
 }
