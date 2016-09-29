@@ -26,7 +26,7 @@ nav {
 .menu ul li {
   color: #bdbdbd;
   text-transform: uppercase;
-  display: inline-block;
+  display: inline-flex;
   padding: 2em 1em 0 1em;
   font-family: Open Sans;
 }
@@ -38,9 +38,15 @@ nav {
 
 .social-navigation {
   display: inline-flex
-  z-index: 4;
+  justify-content: space-around;
+  font-size: 1.3em;
+  color: #fff;
 }
 
+.social-navigation i {
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+}
 /*.fa-stack {
   color: #FFF;
   height: 50px;
