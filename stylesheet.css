@@ -12,6 +12,9 @@ body {
   display: flex;
 }
 
+
+
+
 nav {
   text-align: center;
 }
@@ -41,8 +44,8 @@ nav {
 }
 
 .social-navigation i {
-
   padding: 0.7em;
+
 }
 /*.fa-stack {
   color: #FFF;
