@@ -1,52 +1,119 @@
+/*GENERAL*/
 
 body {
-    background-image:url("images/background.jpg");
-    background-repeat: no-repeat;
-    background-blend-mode: soft-light;
-    background-color: #333;
-    background-position: 0% 23%;
-    background-size: cover;
+  background-color: #333;
 }
 
-.3pict {
+.main {
+max-width: 1100px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+margin: auto;
+}
+
+
+.menu {
+  height: 10px;
+  padding-top: 4em;
+}
+
+.menu a {
+  color: #BDBDBD;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Open Sans;
+
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.menu a:hover {
+  color: #FFF;
+}
+
+
+
+
+.main {
+  width: 82%;
+  margin: 0 auto;
   display: flex;
 }
 
 
 
 
-nav {
-  z-index: 3;
-  text-align: center;
-
-}
-
-.menu ul li {
-  color: #bdbdbd;
-  text-transform: uppercase;
-  display: inline-flex;
-  padding: 2em 1em 0 1em;
-  font-family: Open Sans;
-}
-
-/*.page{
-  z-index: 2;
-  background-color: rgba(0, 0, 0, 0.5);
-}*/
-
-.social-navigation {
-  display: inline-flex
-  justify-content: space-around;
-  font-size: 1.3em;
-  color: #fff;
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .social-navigation i {
-  padding: 0.7em;
+  color: #FFF;
+  font-size: 1.4em;
+  padding: 0.8em;
+}
+
+/*P1 - HOME*/
+
+#bloc1 {
+  height: 38em;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  color: #FFF;
+  font-family: Open Sans;
+  font-weight: 100;
+  font-size: 4em;
+  text-transform: uppercase;
+  padding-bottom: 0.8em;
+}
+
+#mosaic1 {
+    width: 100%;
+  display: flex;
+/*  justify-content: center;
+  align-items: center;*/
+/*  height: 500px;*/
+display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.p1 {
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+ /* justify-content: space-between;*/
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.p1 img {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
 
 }
-/*.fa-stack {
-  color: #FFF;
-  height: 50px;
-  z-index: 2;
-}*/
+
+.p1:nth-child(2) {
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.p1 p {
+  font-family: Open Sans;
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  text-align: left;
+  display: flex;
+}
